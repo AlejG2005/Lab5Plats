@@ -70,4 +70,9 @@ dependencies {
 
     // Coil para imágenes
     implementation("io.coil-kt:coil-compose:2.6.0")
+    implementation(platform("androidx.compose:compose-bom:2024.10.01"))
+    implementation("androidx.compose.material3:material3:1.3.0")
+
+    // 🔽 agrega esto
+    implementation("androidx.compose.material:material-icons-extended")
 }
